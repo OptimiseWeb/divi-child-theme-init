@@ -19,7 +19,10 @@
 @import "base/mixins";
 
 /* Body */
-body {}
+body {
+    font-size: $font-size-base;
+    font-weight: $font-weight-base;
+}
 
 /* Header */
 @import "partials/header";
